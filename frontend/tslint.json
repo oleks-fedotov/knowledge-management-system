@@ -1,10 +1,13 @@
 {
     "extends": [
         "tslint:latest",
-        "tslint-react"
+        "tslint-react",
+        "tslint-config-airbnb"
     ],
     "rules": {
         // override tslint-react rules here
-        "jsx-wrap-multiline": false
+        "jsx-wrap-multiline": false,
+        "quotemark": [true, "single", "jsx-double"],
+        "import-name": false
     }
 }
